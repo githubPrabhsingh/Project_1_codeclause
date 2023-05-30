@@ -1,0 +1,135 @@
+body {
+    padding-top: 20px;
+    background-color: #20202033;
+    background: url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm218-bb-5_1_1.jpg?w=1200&h=1200&dpr=1&fit=clip&crop=default&fm=jpg&q=75&vib=3&con=3&usm=15&cs=srgb&bg=F4F4F3&ixlib=js-2.2.1&s=4f1117bb62da7922be553fbb4e3c49b8) no-repeat center center fixed; 
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+  }
+  
+  h1 {
+    color: #E5E5E5;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 
+    
+  }
+  
+  .bottomright {
+    position: absolute;
+    bottom: 8px;
+    left: 12px;
+    font-size: 18px;
+    color: rgb(153, 0, 255);
+  }
+  
+  .converter-wrapper {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  .converter-wrapper input {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    height: 40px;
+    box-sizing: border-box;
+  }
+  
+  .converter-wrapper span {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+  .converter-wrapper span select {
+    background-color: #131B24;
+    color: #fffffffa;
+    font-size: inherit;
+    padding: 10px;
+    width: 100%;
+    border: 0;
+    margin: 0;
+    border-radius: 0px;
+    text-indent: 0.01px;
+    text-overflow: '';
+    -webkit-appearance: none; /* hide default arrow in chrome OSX */
+  }
+  
+  .converter-wrapper span::before,
+  .converter-wrapper span::after {
+    content: "";
+    position: absolute;
+    pointer-events: none;
+  }
+  
+  .converter-wrapper span::after { /*  Custom dropdown arrow */
+    content: "\25BC";
+    height: 1em;
+    font-size: .625em;
+    line-height: 1;
+    right: 1.5em;
+    top: 50%;
+    margin-top: -.5em;
+    color: rgb(64, 85, 240);
+  }
+  
+  .converter-wrapper span::before { /*  Custom dropdown arrow cover */
+    width: 2.5em;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    border-radius: 0;
+    background-color: rgb(79, 13, 79);
+  }
+  
+  .converter-side-a,
+  .converter-side-b {
+    float: left;
+    margin-top: 10px;
+    box-sizing: border-box;
+    width: 45%;
+  }
+  
+  .converter-equals {
+    float: left;
+    box-sizing: border-box;
+    width: 10%;
+    color: #FFF;
+    font-size: 2.4em;
+    line-height: 0;
+    text-align: center;
+  }
+  
+  .converter-side-a {
+    padding-right: 10px;
+  }
+  
+  .converter-side-b {
+    padding-left: 10px;
+  }
+  
+  
+  
+  .myvideo {
+    text-decoration: none;
+    color: #fff;
+    background: #fc0356;
+    text-align: center;
+    padding: 10px;
+    left: 150px;
+    font-weight: 600px;
+    z-index:10px;
+    top: 50px;
+    position: absolute;
+  }
+  .myvideo:hover {
+    color: #000;
+  }
